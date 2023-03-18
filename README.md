@@ -1,0 +1,1 @@
+常用的Vue3 + Vite + TS + ESLint + Prettier + Stylelint
