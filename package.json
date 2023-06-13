@@ -2,9 +2,9 @@
   "name": "future-airship",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
+    "lint": "eslint --ext .ts,.vue src/ --fix && stylelint \"./src/**/*.{css,less,vue}\" --fix",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
